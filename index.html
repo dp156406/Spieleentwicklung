@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spieleentwicklung</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -30,7 +31,7 @@
         }
 
         a {
-            color: #000000;
+            color: #007bff;
             text-decoration: none;
         }
 
@@ -40,7 +41,7 @@
 
         /* Mögliche Hintergrundfarben */
         body.blue-bg {
-            background-color: #1b6274;
+            background-color: #3498db;
         }
 
         body.green-bg {
@@ -57,7 +58,7 @@
         }
 
         body.gray-text {
-            color: #ffffff;
+            color: #666;
         }
 
         body.red-text {
@@ -78,7 +79,40 @@
             <li><a href="https://www.phaser.io/">Phaser</a> - Ein Open-Source-Framework für die Entwicklung von HTML5-Spielen.</li>
             <!-- Weitere Ressourcen hier einfügen -->
         </ul>
-    </div>
-</body>
-</html>
-
+        <div <!DOCTYPE html>
+            <html lang="de">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Animiertes Element</title>
+                <link rel="stylesheet" href="styles.css">
+                <style>
+                    /* Zusätzliche Stile können hier definiert werden */
+                    .container {
+                        width: 200px;
+                        height: 200px;
+                        background-color: #448ff0;
+                        position: relative;
+                    }
+            
+                    .bouncing-element {
+                        width: 200px;
+                        height: 100px;
+                        background-color: #bb2020;
+                        position: absolute;
+                        bottom: 1000;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        border-radius: 50%;
+                        animation: bounce 1s infinite; /* Die Animation wird endlos wiederholt */
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <!-- Das zu animierende Element -->
+                    <div class="bouncing-element"></div>
+                </div>
+            </body>
+            </html>
+            
